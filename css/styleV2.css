@@ -1,0 +1,209 @@
+* {
+    padding: 0;
+    margin: 2px;
+}
+body {
+    overflow-x: hidden;
+    }
+    
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap');
+
+@font-face {
+    font-family:"Space" ;
+    src: url(../font/Spaceport1.ttf);
+}
+.container {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 15% 37.5% 37.5% 10%;
+    gap: 1rem;
+    grid-template-areas: "header header header"
+    "section1 main aside"
+    "section1 section2 section2"
+     "footer footer footer";
+    
+    
+     background-color: #20128f;
+    color: white;
+    
+}
+.header {
+    background-color:#F2771A;
+    font-family: Space, sans-serif;
+    grid-area: header;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    height: 60%;
+    position: relative;
+    border-radius: 1%;
+
+}
+#logo {
+    width: 400px;
+    height: 200px;
+     margin: 0px;
+     position: relative;
+     transform: translateY(-16px);
+    
+   
+}
+.header__nav {
+    display: flex;
+    align-content: flex-end;
+    margin-right: 20px;
+    font-size: 27px;
+}
+.header__list {
+    display:flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 10px;
+    text-decoration: none;
+    align-items: flex-end;
+    margin-right: 10px;
+    
+}
+header nav ul li{
+    list-style-type:none;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+   
+    
+}
+body {
+    color:white;
+    
+    font-family: 'Open Sans', sans-serif;
+    background-color: #20128f
+
+}
+.main {
+    
+    grid-area: main;
+    align-items: center;
+    text-align: center;
+    font-size: 35px;
+    height: 50%;
+}
+iframe {
+    padding: 50px;
+    
+}
+.novedades {
+    margin: 5px;
+    font-size: 30px;
+    justify-items: stretch;
+    grid-area: section1;
+}
+#flyer {
+    width: 100%;
+    height: 280px;
+}
+#flyer2 {
+    width: 75%;
+    height: 500px;
+
+}
+.novedades2 {
+    font-size: 28px;
+   transform: translateY(-200px);
+    grid-area: section2;
+
+}
+.tabla {
+    height: 60%;
+    width: 90%;
+}
+.fechas {
+    
+    grid-area: aside;
+    font-size: 22px;
+    
+}
+.footer {
+    justify-content: space-between;
+    grid-area: footer;
+    display: flex;
+    flex-direction: row;
+    background-color:#F2771A;
+    height: 60%;
+    bottom: 0;
+    transform: translateY(100px);
+    
+}
+.footer__titulo {
+    position:relative;
+    font-size: 25px;
+}
+.footer__logolist {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items:center;
+    gap: 10px;
+    list-style-type: none;
+}
+.logos {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+#titulosponsor {
+    text-align: center;
+    margin-top: 20px;
+}
+#sponsorgrid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 25% 25% 25% 25%;
+    gap: 1rem;
+    grid-template-areas:"palermo palermo" 
+    "ama freytes"
+    "cra orion"
+    "kraftec noa" ;
+    justify-content: space-around;
+    list-style-type: none;
+}
+#ktmpalermo {
+    grid-area: palermo;
+}
+#ama {
+    grid-area:ama;
+}
+#freytes {
+    grid-area:freytes;
+}
+#cra {
+    grid-area:cra;
+    justify-items: left;
+}
+#orion {
+    grid-area:orion;
+    justify-items: right;
+}
+#kraftec {
+    grid-area:kraftec;
+}
+#noa {
+    grid-area:noa;
+}
+.logosponsor {
+    width:100px;
+    height: 100px;
+}
+.formulario{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 20px;
+    gap: 1rem;
+    border-style: ridge;
+}
+#boton {
+    text-align: center;
+}

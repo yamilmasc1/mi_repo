@@ -150,10 +150,13 @@ header nav ul li a {
           height: 65%;
          
       }
+      
+
       /*sponsors*/
       #titulosponsor {
           font-size: 15px;
           text-align: center;
+          justify-content: center;
       }
       .sponsorgrid {
         display: grid;
@@ -370,7 +373,60 @@ header nav ul li a {
     border: white solid 3px;
     border-radius:0.5%;
     }
-/*SPONSORS*/
+
+/*historia*/
+.historia {
+    display: flex;
+    flex-direction: column;
+}
+.titulohistoria {
+    text-align: center;
+}
+#historiaimg {
+    width: 70%;
+    height: 70%;
+    display: block;
+    margin: auto;
+}
+#historiap {
+    font-size: 20px;
+    font-family: "Varela";
+}
+
+ /*nosotros*/
+.nosotros {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    align-content: center;
+}
+#titulonosotros {
+    text-align: center;
+}
+.titulos {
+    text-align: center;
+}
+
+.trayectoria {
+    list-style: circle;
+   align-self: center;
+}
+.pilotosfoto {
+    width:65%;
+    height: 70%;
+    align-content: center;
+    display: block;
+    margin: auto;
+  
+}
+.motos {
+    width: 70%;
+    height: 65%;
+    display: block;
+    margin: auto;
+   
+}
+    /*SPONSORS*/
     #titulosponsor {
     text-align: center;
     margin-top: 20px;

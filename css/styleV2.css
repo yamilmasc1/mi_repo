@@ -17,7 +17,7 @@ body {
     font-family: "Varela", sans-serif;
 }
 .header {
-    background: linear-gradient(#F2771A, rgb(230, 171, 46));
+    background: linear-gradient(#F2771A, rgb(230, 171, 45));
     font-family: Space, sans-serif;
     display: flex;
     flex-direction: row;

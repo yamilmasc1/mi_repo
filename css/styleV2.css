@@ -138,6 +138,12 @@ header nav ul li a {
         transform: translateX(-55px);
          font-size: 10px;
         }
+<<<<<<< HEAD
+=======
+        header nav ul li {
+           
+        }
+>>>>>>> rama1
         .novedades {
             grid-area: section1;
             transform: translateY(-120px);
@@ -293,6 +299,10 @@ header nav ul li a {
         font-size: 30px;
         justify-items: stretch;
         grid-area: section1;
+<<<<<<< HEAD
+=======
+        transform: translateY(10px);
+>>>>>>> rama1
     }
     #flyer {
         width: 100%;
@@ -318,6 +328,10 @@ header nav ul li a {
         
         grid-area: aside;
         font-size: 22px;
+<<<<<<< HEAD
+=======
+        transform: translateY(-25px);
+>>>>>>> rama1
         
     }
     .footer {

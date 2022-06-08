@@ -17,20 +17,17 @@ body {
     font-family: "Varela", sans-serif;
 }
 .header {
-    background: linear-gradient(#F2771A, rgb(230, 171, 45));
+    background: linear-gradient(#F2771A, rgb(230, 171, 46));
     font-family: Space, sans-serif;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     border-radius: 1%;
     grid-area: header;
-    width: 100%;
     }
 #logo {
     width: 200px;
     height: 150px;
-    display:block;
-    margin: auto;
 }
 .header__nav {
         display: flex;
@@ -48,11 +45,9 @@ body {
         margin-right: 10px;
         font-size: 20px;
         
-        
     }
  header nav ul li{
         list-style-type:none;
-        transform: translateX(-110px);
     }
 header nav ul li a {
         text-decoration: none;
@@ -143,9 +138,7 @@ header nav ul li a {
         transform: translateX(-55px);
          font-size: 10px;
         }
-        header nav ul li {
-           
-        }
+       
         .novedades {
             grid-area: section1;
             transform: translateY(-120px);

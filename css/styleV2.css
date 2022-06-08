@@ -64,7 +64,7 @@ header nav ul li a {
         grid-area: footer;
         display: flex;
         flex-direction: row;
-        background: linear-gradient(#F2771A, rgb(230, 171, 46));
+        background: linear-gradient(#F2771A, rgb(230, 171, 45));
         border-radius: 2%;
        
         

@@ -59,7 +59,11 @@ header nav ul li a {
         grid-area: footer;
         display: flex;
         flex-direction: row;
+<<<<<<< HEAD
         background-color:#F2771A;
+=======
+        background: linear-gradient(#F2771A, rgb(230, 171, 45));
+>>>>>>> rama1
         border-radius: 2%;
        
         
@@ -122,7 +126,7 @@ header nav ul li a {
         height: 180px;
     }
     .header {
-        
+        width: 100%;
     }
     #logo {
        align-content: center;

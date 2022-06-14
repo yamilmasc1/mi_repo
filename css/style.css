@@ -67,7 +67,7 @@
         text-decoration: none;
         color: white;
     }
-    .footer {
+    footer {
         font-family: Space, sans-serif;
         justify-content: space-between;
         grid-area: footer;
@@ -325,13 +325,13 @@
             
             
         }
-        .footer {
+        footer {
             font-family: Space, sans-serif;
             justify-content: space-between;
             grid-area: footer;
             display: flex;
             flex-direction: row;
-            background-color:#F2771A;
+            background: linear-gradient(#F2771A, rgb(230, 171, 45));
             height: 60%;
             width: 97%;
             bottom: 0;

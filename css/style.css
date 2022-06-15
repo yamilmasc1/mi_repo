@@ -19,25 +19,20 @@
         font-family: "Varela", sans-serif;
     }
     .bg-propio {
-        background-color: linear-gradient(#F2771A, rgb(230, 171, 46))!important;
+        background: linear-gradient(#F2771A, rgb(230, 171, 46))!important;
+        width: 100%;
     }
     .header {
         
         font-family: Space, sans-serif;
         display: flex;
-        flex-direction:row;
         justify-content: space-between;
         border-radius: 1%;
-        background: linear-gradient(#F2771A, rgb(230, 171, 46))!important;
-        
-        
-     }
-     .nav-item {
-        color: white !important;
-     }
-     .nav-item:hover {
-        color:#20128f !important;
-        
+    }
+     
+     
+     .classli:hover {
+        color:  #20128f !important;
      }
      #logo {
         width: 200px;
@@ -214,6 +209,11 @@
         border-radius:0.5%;
         }
         */
+        .fotos {
+            width: 100% !important;
+            height: 65% !important;
+            align-items: center !important;
+        }
     /*SPONSORS*/
     #titulosponsor {
         font-size: 15px;

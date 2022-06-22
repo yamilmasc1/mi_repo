@@ -1,0 +1,209 @@
+
+@import "./pages/historia";
+@import "./pages/nosotros";
+@import "./pages/galeria";
+@import "./pages/sponsors";
+@import "./variables/variables";
+
+@import url(../font/Spaceport1.ttf);
+$variable-font: 'Space', sans-serif;
+
+//INDEX MOBILE Y DESKTOP //HEADER Y FOOTER GENERAL //
+
+
+body {
+    background-color:$bg-body;
+    color: $color-letras;
+    font-family: "Varela", sans-serif;
+}
+
+.header {
+    
+    font-family: Space, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1%;
+    width: 100%;
+    margin: 0px;
+    .bg-propio {
+        background: $bg-footer;
+        width: 100%;
+    }
+    #logo {
+        width: 200px;
+        height: 150px;
+    }
+    li {
+        color: $color-letras;
+        &:hover{
+            color: $bg-body;
+        }
+        
+    }
+}
+ 
+ 
+ 
+
+footer {
+    font-family: $variable-font;
+    justify-content: space-between;
+    grid-area: footer;
+    display: flex;
+    background: linear-gradient(#F2771A, rgb(230, 171, 45));
+    border-radius: 2%;
+    .logos {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+   
+    
+}
+
+//ESTRUCTURA DEL INDEX//
+
+.containerindex {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-areas: "main" "section1" "section2" "aside";
+    .main {
+        grid-area: main;
+        text-align: center;
+        iframe {
+            width: 320px;
+            height: 180px;
+        }
+    }
+     .novedades {
+        grid-area: section1;
+        font-size: small;
+        transform: translateY(-220px);
+        .titulo2 {
+            font-size: 25px;
+         }
+         #flyer {
+            width: 100%;
+            height: 40%;
+        }
+
+     }
+     
+     .novedades2 {
+        grid-area: section2;
+        font-size: small;
+        transform: translateY(-200px);
+        .titulo2 {
+            font-size: 25px;
+         }
+         #flyer2 {
+            width: 70%;
+            height: 10%;
+            align-items: center;
+        }
+    }
+
+        
+        
+    aside {
+        grid-area: aside;
+        display: flex;
+        justify-content: center;
+        table {
+            height: 50%;
+            align-self: flex-end;
+        }
+    }
+
+    
+    
+    
+}
+@media screen and (min-width: 1200px) {
+
+    .containerindex {
+        display: grid;
+        grid-template-columns: 25% 50% 20%;
+        grid-template-rows: 45% 55%;
+        gap: 1rem;
+        grid-template-areas:"section1 main aside" "section1 section2 section2";
+        color: white;
+        .main {
+            grid-area: main;
+            text-align: center;
+            font-size: 35px;
+            height: 50%;
+            iframe {
+                padding: 50px;
+                width: 100%;
+                height: 100%;
+                align-self: center;
+                
+            }
+        }
+       
+        .novedades {
+            margin: 5px;
+            font-size: 25px;
+            grid-area: section1;
+            transform: translateY(10px);
+            #flyer {
+                width: 100%;
+                height: 50%;
+            }
+            .titulo2 {
+                font-size: 22px;
+            }
+        }
+        
+       
+        .novedades2 {
+            font-size: 24px;
+           width: 85%;
+            grid-area: section2;
+            transform: translateY(-350px);
+            #flyer2 {
+                width: 70%;
+                height: 2%;
+            
+            }
+            .titulo2 {
+                font-size: 22px;
+            }
+            
+        
+        }
+        
+       
+        
+        .fechas {
+            
+            grid-area: aside;
+            font-size: 22px;
+            .tabla {
+                height: 100%;
+                width: 90%;
+                align-self: center;
+            }
+            
+            
+            
+        }
+    }
+    footer{
+        background: $bg-footer;
+        .logos {
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+        }
+    }
+    
+     
+}
+ 

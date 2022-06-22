@@ -1,0 +1,17 @@
+@import url(../font/Spaceport1.ttf);
+$variable-font: 'Space', sans-serif;
+@font-face {
+    font-family:"Space" ;
+    src: url("../font/Spaceport1.ttf");
+    }
+    @font-face {
+    font-family: "Varela" ;
+    src: url(../font/VarelaRound-Regular.ttf);
+    }
+
+
+//VARIABLES//
+$bg-body:#20128f;
+$bg-footer: linear-gradient(#F2771A, rgb(230, 171, 46));
+$color-letras: white;
+

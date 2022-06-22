@@ -28,6 +28,8 @@
         display: flex;
         justify-content: space-between;
         border-radius: 1%;
+        width: 100%;
+        margin: 0px;
     }
      
      
@@ -103,11 +105,12 @@
         }
      .main {
         grid-area: main;
+        text-align: center;
         }
      .novedades {
         grid-area: section1;
         font-size: small;
-        transform: translateY(-60px);
+        transform: translateY(-220px);
     
         }
      .titulo2 {
@@ -116,14 +119,16 @@
      .novedades2 {
         grid-area: section2;
         font-size: small;
+        transform: translateY(-200px);
         }
         #flyer {
-            width: 200px;
-            height: 100px;
+            width: 100%;
+            height: 40%;
         }
         #flyer2 {
-            width: 300px;
-            height: 100px;
+            width: 70%;
+            height: 10%;
+            align-items: center;
         }
         iframe {
             width: 320px;
@@ -135,7 +140,7 @@
         justify-content: center;
     }
     table {
-        height: 60%;
+        height: 50%;
         align-self: flex-end;
     }
     /*HISTORIA*/
@@ -269,7 +274,7 @@
 
         .containerindex {
             display: grid;
-            grid-template-columns: 25% 50% 25%;
+            grid-template-columns: 25% 50% 20%;
             grid-template-rows: 45% 55%;
             gap: 1rem;
             grid-template-areas:"section1 main aside" "section1 section2 section2";
@@ -285,36 +290,40 @@
         }
         iframe {
             padding: 50px;
-            transform: translateY(-15px);
-            width: 560px;
-            height: 315px;
+            width: 100%;
+            height: 100%;
             align-self: center;
             
         }
         .novedades {
             margin: 5px;
-            font-size: 30px;
+            font-size: 25px;
             grid-area: section1;
             transform: translateY(10px);
         }
         #flyer {
             width: 100%;
-            height: 280px;
+            height: 50%;
         }
         #flyer2 {
-            width: 75%;
-            height: 500px;
+            width: 70%;
+            height: 2%;
         
         }
         .novedades2 {
             font-size: 24px;
-           
+           width: 85%;
             grid-area: section2;
+            transform: translateY(-350px);
             
         
         }
+        
+        .titulo2 {
+            font-size: 22px;
+        }
         .tabla {
-            height: 60%;
+            height: 100%;
             width: 90%;
             align-self: center;
         }
@@ -322,6 +331,7 @@
             
             grid-area: aside;
             font-size: 22px;
+            
             
             
         }
@@ -333,12 +343,14 @@
             flex-direction: row;
             background: linear-gradient(#F2771A, rgb(230, 171, 45));
             height: 60%;
-            width: 97%;
+            width: 100%;
             bottom: 0;
             transform: translateY(100px);
            
             
         }
+        
+        
         .footer__titulo {
             position:relative;
             font-size: 25px;

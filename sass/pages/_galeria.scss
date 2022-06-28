@@ -1,0 +1,6 @@
+@import "../variables/variables";
+
+.fotos {
+    @include sizes(100%, 65%);
+    align-items: center !important;
+}

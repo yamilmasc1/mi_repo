@@ -1,0 +1,39 @@
+@import "../variables/variables";
+.nosotros {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    align-content: center;
+    #titulonosotros {
+        text-align: center;
+        }
+        .titulos {
+            text-align: center;
+            }
+    .trayectoria {
+                list-style: circle;
+               align-self: center;
+        }
+    .trayectoria--2 {
+        @extend .trayectoria;
+        color: lightblue;
+        font-size: 20px;
+
+    }
+    }
+    
+    .pilotosfoto {
+    width:65%;
+    height: 70%;
+    align-content: center;
+    display: block;
+    margin: auto;
+  
+    }
+    .motos {
+    width: 70%;
+    height: 65%;
+    display: block;
+    margin: auto;
+   
+    }

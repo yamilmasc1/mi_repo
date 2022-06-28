@@ -15,3 +15,18 @@ $bg-body:#20128f;
 $bg-footer: linear-gradient(#F2771A, rgb(230, 171, 46));
 $color-letras: white;
 
+//MIXINS//
+@mixin sizes($width,$height) {
+    width: $width;
+    height: $height;
+}
+
+//MAP y MAP-GET//
+$estilobody: (
+    background-color:$bg-body,
+    color: $color-letras,
+    font-family: "Varela", sans-serif
+);
+$estilos: (
+    color:linear-gradient(#F2771A, rgb(230, 171, 46))
+)

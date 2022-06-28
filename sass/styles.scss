@@ -13,7 +13,7 @@ $variable-font: 'Space', sans-serif;
 
 body {
     background-color:$bg-body;
-    color: $color-letras;
+    color: map-get($estilobody, color);
     font-family: "Varela", sans-serif;
 }
 
@@ -30,10 +30,10 @@ body {
         width: 100%;
     }
     #logo {
-        width: 200px;
-        height: 150px;
+        @include sizes(200px, 150px);
+        
     }
-    li {
+    ul li a{
         color: $color-letras;
         &:hover{
             color: $bg-body;
@@ -50,11 +50,10 @@ footer {
     justify-content: space-between;
     grid-area: footer;
     display: flex;
-    background: linear-gradient(#F2771A, rgb(230, 171, 45));
+    background: map-get($estilos, color);
     border-radius: 2%;
     .logos {
-        width: 50px;
-        height: 50px;
+        @include sizes(50px, 50px);
         display: flex;
         justify-content: space-between;
         flex-direction: row;
@@ -115,6 +114,7 @@ footer {
         table {
             height: 50%;
             align-self: flex-end;
+            transform: translateY(20px);
         }
     }
 

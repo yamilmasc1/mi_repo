@@ -1,5 +1,261 @@
 @import url(../font/Spaceport1.ttf);
 @import url(../font/Spaceport1.ttf);
+@import url(../font/Spaceport1.ttf);
+@import url(../font/Spaceport1.ttf);
+@import url(../font/Spaceport1.ttf);
+@import url(../font/Spaceport1.ttf);
+@font-face {
+  font-family: "Space";
+  src: url("../font/Spaceport1.ttf");
+}
+
+@font-face {
+  font-family: "Varela";
+  src: url(../font/VarelaRound-Regular.ttf);
+}
+
+.historia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.historia .titulohistoria {
+  text-align: center;
+}
+
+#historiaimg {
+  width: 70%;
+  height: 70%;
+  display: block;
+  margin: auto;
+}
+
+#historiap {
+  font-size: 20px;
+  font-family: "Varela";
+  margin-left: 5px;
+}
+
+@font-face {
+  font-family: "Space";
+  src: url("../font/Spaceport1.ttf");
+}
+
+@font-face {
+  font-family: "Varela";
+  src: url(../font/VarelaRound-Regular.ttf);
+}
+
+.nosotros {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 10px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.nosotros #titulonosotros {
+  text-align: center;
+}
+
+.nosotros .titulos {
+  text-align: center;
+}
+
+.nosotros .trayectoria, .nosotros .trayectoria--2 {
+  list-style: circle;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.nosotros .trayectoria--2 {
+  color: lightblue;
+  font-size: 20px;
+}
+
+.pilotosfoto {
+  width: 65%;
+  height: 70%;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  display: block;
+  margin: auto;
+}
+
+.motos {
+  width: 70%;
+  height: 65%;
+  display: block;
+  margin: auto;
+}
+
+@font-face {
+  font-family: "Space";
+  src: url("../font/Spaceport1.ttf");
+}
+
+@font-face {
+  font-family: "Varela";
+  src: url(../font/VarelaRound-Regular.ttf);
+}
+
+.fotos {
+  width: 100%;
+  height: 65%;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+}
+
+@font-face {
+  font-family: "Space";
+  src: url("../font/Spaceport1.ttf");
+}
+
+@font-face {
+  font-family: "Varela";
+  src: url(../font/VarelaRound-Regular.ttf);
+}
+
+#titulosponsor {
+  font-size: 15px;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sponsorgrid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  -ms-grid-rows: 25% 25% 25% 25%;
+      grid-template-rows: 25% 25% 25% 25%;
+  gap: 1rem;
+      grid-template-areas: "palermo palermo"  "ama freytes" "cra orion" "kraftec noa";
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style-type: none;
+}
+
+.sponsorgrid #palermo {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: palermo;
+}
+
+.sponsorgrid #ama {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: ama;
+}
+
+.sponsorgrid #freytes {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: freytes;
+}
+
+.sponsorgrid #cra {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: cra;
+}
+
+.sponsorgrid #kraftec {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: kraftec;
+}
+
+.sponsorgrid #noa {
+  -ms-grid-row: 4;
+  -ms-grid-column: 2;
+  grid-area: noa;
+}
+
+.sponsorgrid .logosponsor {
+  width: 80%;
+  height: 60%;
+}
+
+.formulario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  font-size: 15px;
+  gap: 1rem;
+  border-style: ridge;
+}
+
+.formulario #boton {
+  text-align: center;
+}
+
+@media screen and (min-width: 1200px) {
+  #titulosponsor {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .sponsorgrid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 50% 50%;
+        grid-template-columns: 50% 50%;
+    -ms-grid-rows: 25% 25% 25% 25%;
+        grid-template-rows: 25% 25% 25% 25%;
+    gap: 1rem;
+        grid-template-areas: "palermo palermo"  "ama freytes" "cra orion" "kraftec noa";
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    list-style-type: none;
+  }
+  .sponsorgrid #ktmpalermo {
+    width: 90%;
+    height: 100%;
+    -webkit-transform: translateX(-10px);
+            transform: translateX(-10px);
+  }
+  .sponsorgrid .logosponsor {
+    width: 85%;
+    height: 65%;
+  }
+  .formulario {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    font-size: 20px;
+    gap: 1rem;
+    border-style: ridge;
+  }
+  #boton {
+    text-align: center;
+  }
+}
+
 @font-face {
   font-family: "Space";
   src: url("../font/Spaceport1.ttf");
@@ -40,11 +296,11 @@ body {
   height: 150px;
 }
 
-.header li {
+.header ul li a {
   color: white;
 }
 
-.header li:hover {
+.header ul li a:hover {
   color: #20128f;
 }
 
@@ -154,6 +410,8 @@ footer .logos {
   height: 50%;
   -ms-flex-item-align: end;
       align-self: flex-end;
+  -webkit-transform: translateY(20px);
+          transform: translateY(20px);
 }
 
 @media screen and (min-width: 1200px) {

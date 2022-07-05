@@ -3,4 +3,6 @@
 .fotos {
     @include sizes(100%, 65%);
     align-items: center !important;
+    width: 1200px;
+    height: 700px;
 }

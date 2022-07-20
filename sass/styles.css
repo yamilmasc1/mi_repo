@@ -29,8 +29,8 @@
 }
 
 #historiaimg {
-  width: 70%;
-  height: 70%;
+  width: 60%;
+  height: 40%;
   display: block;
   margin: auto;
 }
@@ -111,8 +111,8 @@
 }
 
 .fotos {
-  width: 1200px;
-  height: 1000px;
+  width: 800px;
+  height: 800px;
   -webkit-box-align: center !important;
       -ms-flex-align: center !important;
           align-items: center !important;
